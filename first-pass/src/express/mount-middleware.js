@@ -1,7 +1,7 @@
 const express = require('express');
 const { join } = require('path');
 
-const attachLocals = require('./attachLocals');
+const attachLocals = require('./attach-locals');
 const lastResortHandler = require('./last-resort-error-handler');
 const primeRequestContext = require('./prime-request-context');
 
